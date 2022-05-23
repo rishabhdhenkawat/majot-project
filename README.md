@@ -1,4 +1,4 @@
-## Ernest: Performance Prediction for Advanced Analytics
+## Performance Prediction for Advanced Analytics
 
 Ernest is a performance prediction framework for analytics jobs developed using frameworks like Apache Spark and run on cloud computing infrastructure. 
 
@@ -13,9 +13,7 @@ samples of data and then predicts its performance on larger datasets and cluster
 sizes. To minimize the time and resources spent in building a model, Ernest
 uses [optimal experiment design](https://en.wikipedia.org/wiki/Optimal_design),
 a statistical technique that allows us to collect as few training points as
-required. For more details please see our [paper]
-(http://shivaram.org/publications/ernest-nsdi.pdf) and [talk slides](http://shivaram.org/talks/ernest-nsdi-2016.pdf) from NSDI 2016.
-
+required. 
 ### Installing Ernest
 
 The easiest way to install Ernest is by cloning this repository.

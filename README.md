@@ -1,4 +1,4 @@
-## Ernest: Efficient Performance Prediction for Advanced Analytics
+## Ernest: Performance Prediction for Advanced Analytics
 
 Ernest is a performance prediction framework for analytics jobs developed using frameworks like Apache Spark and run on cloud computing infrastructure. 
 

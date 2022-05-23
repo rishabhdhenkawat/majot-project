@@ -14,7 +14,7 @@ sizes. To minimize the time and resources spent in building a model, Ernest
 uses [optimal experiment design](https://en.wikipedia.org/wiki/Optimal_design),
 a statistical technique that allows us to collect as few training points as
 required. 
-### Installing Ernest
+### Installing 
 
 The easiest way to install Ernest is by cloning this repository.
 

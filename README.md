@@ -27,11 +27,6 @@ pip install -r requirements.txt
 
 ### Using tool
 
-At a high level there are three main steps to run the project as summarized in the following figure.
-
-<p style="text-align: center;">
-  <img src="docs/img/ernest-workflow.png" title="Ernest Workflow" alt="Ernest Workflow" style="width: 100%; max-width: 500px;" />
-</p>
 
 These include:
 

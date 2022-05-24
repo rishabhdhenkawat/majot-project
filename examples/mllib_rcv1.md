@@ -1,6 +1,6 @@
-## Example of running Ernest using Apache Spark ML
+## Example of running Tool using Apache Spark ML 
 
-This document presents an example of using Ernest to build a performance
+This document presents an example of using Tool to build a performance
 model for binary classification using Logistic Regression implemented in [Spark
 ML](http://spark.apache.org/mllib).
 
@@ -11,7 +11,7 @@ dataset](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary.html#rcv
 LibSVM repository. A pre-processed version of the dataset (after converting negative labels to 0 as
 required by MLlib) is available at `s3://ernest-data/rcv1_test_256.binary`.
 
-The first step in using Ernest is to use the Experiment Design module to figure out what training
+The first step in using Tool is to use the Experiment Design module to figure out what training
 data points need to be collected. To do this we can run the following command
 ```
 python expt_design.py --min-parts 4 --max-parts 32 --total-parts 256 --min-mcs 1 --max-mcs 8 --cores-per-mc 4
@@ -80,8 +80,3 @@ Machines, Predicted Time
 ...
 ```
 
-Thus what we see is that the model predicts that as we go from 16 to 24 machines, the performance wins
-are limited as the time for 10 iterations only drops from 16.4s to 12.98s. This is because RCV1 is a
-very small dataset and at larger cluster sizes we spend more time on communication rather than on
-parallel computation. [Our paper](http://shivaram.org/publications/ernest-nsdi.pdf) contains more 
-examples.
